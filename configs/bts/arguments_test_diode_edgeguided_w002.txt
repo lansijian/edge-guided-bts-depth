@@ -1,0 +1,13 @@
+--model_name bts_diode_edgeguided_w002
+--encoder densenet121_bts
+--dataset diode
+--data_path D:/机器视觉设计与实践/data/diode
+--filenames_file D:/机器视觉设计与实践/data/diode/bts_inputs/diode_test.txt
+--input_height 416
+--input_width 544
+--max_depth 10
+--checkpoint_path D:/机器视觉设计与实践/outputs/logs/bts/diode/bts_diode_edgeguided_w002
+--bts_size 512
+--output_directory D:/机器视觉设计与实践/outputs/results/bts/diode/bts_diode_edgeguided_w002
+--use_edge_guidance
+--save_lpg

@@ -1,0 +1,13 @@
+--model_name bts_nyu_edgebranch_only
+--encoder densenet121_bts
+--dataset nyu
+--data_path D:/机器视觉设计与实践/data/nyuv2/official_splits/test
+--filenames_file D:/机器视觉设计与实践/data/nyuv2/bts_inputs/nyu_test_official.txt
+--input_height 416
+--input_width 544
+--max_depth 10
+--checkpoint_path D:/机器视觉设计与实践/outputs/logs/bts/nyu/bts_nyu_edgebranch_only
+--bts_size 512
+--output_directory D:/机器视觉设计与实践/outputs/results/bts/nyu/bts_nyu_edgebranch_only
+--use_edge_guidance
+--save_lpg

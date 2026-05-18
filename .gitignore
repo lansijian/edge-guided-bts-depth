@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter / local env
+.ipynb_checkpoints/
+.python-version
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model weights / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.tar
+checkpoints/
+
+# Datasets
+data/
+
+# Experiment outputs
+outputs/cache/
+outputs/logs/
+outputs/predictions/
+outputs/results/
+
+# Optional large third-party mirrors
+# Keep this commented if you want to upload refs/ source snapshots.
+# refs/
+
+# Local caches
+outputs/cache/
+**/__pycache__/
+
+# Temporary export files
+*.tmp
+*.bak
+*.swp

@@ -1,0 +1,11 @@
+--model_name bts_diode_local_baseline
+--encoder densenet121_bts
+--dataset diode
+--data_path D:/机器视觉设计与实践/data/diode
+--filenames_file D:/机器视觉设计与实践/data/diode/bts_inputs/diode_test.txt
+--input_height 768
+--input_width 1024
+--max_depth 10
+--save_lpg
+--checkpoint_path D:/机器视觉设计与实践/outputs/logs/bts/diode/bts_diode_local_baseline
+--output_directory D:/机器视觉设计与实践/outputs/results/bts/diode/bts_diode_local_baseline

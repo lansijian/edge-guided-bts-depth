@@ -1,0 +1,12 @@
+--mode test
+--model_name bts_nyu_local_baseline
+--encoder densenet121_bts
+--dataset nyu
+--data_path D:/机器视觉设计与实践/data/nyuv2/official_splits/test
+--filenames_file D:/机器视觉设计与实践/data/nyuv2/bts_inputs/nyu_test_official.txt
+--input_height 480
+--input_width 640
+--max_depth 10
+--save_lpg
+--checkpoint_path D:/机器视觉设计与实践/outputs/logs/bts/nyu/bts_nyu_local_baseline
+--output_directory D:/机器视觉设计与实践/outputs/results/bts/nyu/bts_nyu_local_baseline

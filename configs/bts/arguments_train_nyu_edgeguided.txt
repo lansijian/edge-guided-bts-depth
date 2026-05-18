@@ -1,0 +1,32 @@
+--mode train
+--model_name bts_nyu_edgeguided
+--encoder densenet121_bts
+--dataset nyu
+--data_path D:/机器视觉设计与实践/data/nyuv2/official_splits/train
+--gt_path D:/机器视觉设计与实践/data/nyuv2/official_splits/train
+--filenames_file D:/机器视觉设计与实践/data/nyuv2/bts_inputs/nyu_train_official.txt
+--batch_size 2
+--num_epochs 20
+--learning_rate 1e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 0
+--input_height 416
+--input_width 544
+--max_depth 10
+--do_random_rotate
+--degree 2.5
+--log_directory D:/机器视觉设计与实践/outputs/logs/bts/nyu
+--log_freq 50
+--save_freq 200
+--do_online_eval
+--eval_freq 200
+--data_path_eval D:/机器视觉设计与实践/data/nyuv2/official_splits/test
+--gt_path_eval D:/机器视觉设计与实践/data/nyuv2/official_splits/test
+--filenames_file_eval D:/机器视觉设计与实践/data/nyuv2/bts_inputs/nyu_test_official.txt
+--min_depth_eval 1e-3
+--max_depth_eval 10
+--eval_summary_directory D:/机器视觉设计与实践/outputs/logs/bts/nyu/eval
+--eigen_crop
+--use_edge_guidance
+--edge_loss_weight 0.1
